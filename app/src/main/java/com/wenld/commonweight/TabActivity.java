@@ -68,7 +68,7 @@ public class TabActivity extends Activity {
         }
 
         @Override
-        public RecyclerView.ViewHolder onCreateAdvanceViewHolder(ViewGroup parent, int viewType) {
+        public Holder onCreateAdvanceViewHolder(ViewGroup parent, int viewType) {
             return new Holder(LayoutInflater.from(parent.getContext()).inflate(R.layout.listitem, parent, false));
         }
 
@@ -86,6 +86,11 @@ public class TabActivity extends Activity {
                     }
                 });
                 tv = (TextView) itemView.findViewById(R.id.tv_listitem);
+            }
+
+            @Override
+            public int getAdpPosition() {
+                return getAdapterPosition()-getmHeaderViews();
             }
         }
     }
