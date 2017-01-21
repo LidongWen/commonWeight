@@ -1,7 +1,7 @@
 # WaveLoadingView ____ 水波纹进度View
 
 ## 效果展示
-<img width="320" height="548" src="https://github.com/LidongWen/DownLoadUtils/blob/master/img/waveLoadingView.gif"></img>
+<img width="320" height="548" src="https://github.com/LidongWen/commonWeight/blob/master/img/waveLoadingView.gif"></img>
 
 
 
