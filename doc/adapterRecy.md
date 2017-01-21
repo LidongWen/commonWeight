@@ -70,7 +70,7 @@ public class MyAdapter extends AdvancedAdapter<MyAdapter.Holder, String> {
 | ------------- |:-------------:| :-----:|
 | addHeaderView(View headerView)      |  |  |
 |  addFooterView(View footerView)      |  |  |
-
+|void setListener(ItemClickInterface<M> listener)      |  |  |
 #Contact me
 
 E-mail:wenld2014@163.com
