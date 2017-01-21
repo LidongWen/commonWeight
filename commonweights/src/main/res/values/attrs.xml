@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="waveLoadingView">
+        <attr name="circle_Color" format="color|reference" />
+        <attr name="wave_Color" format="color|reference" />
+        <attr name="text_Color" format="color|reference" />
+        <attr name="text_Size" format="dimension" />
+
+        <attr name="unitText" format="string|reference" />
+        <attr name="unitText_Color" format="color|reference" />
+        <attr name="unitText_Size" format="dimension" />
+
+        <!--<attr name="customAttr">-->
+            <!--<enum name="man" value="0" />-->
+            <!--<enum name="woman" value="1" />-->
+        <!--</attr>-->
+
+    </declare-styleable>
+</resources>
