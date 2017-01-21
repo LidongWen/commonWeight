@@ -11,9 +11,29 @@
         <attr name="unitText_Size" format="dimension" />
 
         <!--<attr name="customAttr">-->
-            <!--<enum name="man" value="0" />-->
-            <!--<enum name="woman" value="1" />-->
+        <!--<enum name="man" value="0" />-->
+        <!--<enum name="woman" value="1" />-->
         <!--</attr>-->
 
+    </declare-styleable>
+
+
+    <declare-styleable name="recordView">
+        <attr name="playHintText" format="string" />
+        <attr name="textHintColor" format="reference|color" />
+        <attr name="hintTextSize" format="dimension|reference" />
+        <attr name="ringWidth" format="reference|dimension" />
+        <attr name="voiceWidth" format="dimension|reference" />
+        <attr name="microphoneBitmap" format="reference" />
+        <attr name="model">
+            <enum name="record_model" value="1" />
+            <enum name="play_model" value="2" />
+            <enum name="loading_model" value="3" />
+        </attr>
+
+        <attr name="ringColor" format="reference|color" />
+        <attr name="loadingColor" format="reference|color" />
+        <attr name="voiceRingColor" format="reference|color" />
+        <attr name="voiceColor" format="reference|color" />
     </declare-styleable>
 </resources>

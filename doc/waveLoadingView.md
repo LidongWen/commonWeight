@@ -20,7 +20,7 @@
 
 ## void
 | name        | void name           | direction  |
-| ------------- |:-------------:| :-----:|
+| ------------- | ------------- | :-----:|
 | 设置百分比      | setPercent(int percent) | |
 | 设置文字颜色      | setTextColor(int textColor)      |  |
 | text size | setTextSize(float textSize)      |    换算成 px |

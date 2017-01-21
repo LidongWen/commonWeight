@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:loadingView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_beging"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_start"
+        android:text="展示 录音 动画" />
+
+    <Button
+        android:id="@+id/btn_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_beging"
+        android:text="展示 标识 动画" />
+
+    <com.wenld.commonweights.MicrophoneView
+        android:id="@+id/microphoneView_layout_record"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        loadingView:hintTextSize="18sp"
+        loadingView:model="loading_model"
+        loadingView:playHintText="标识中..."
+        loadingView:ringWidth="2dp"
+        loadingView:textHintColor="@color/colorPrimary"
+        loadingView:voiceRingColor="@color/colorPrimary"
+        loadingView:voiceWidth="1dp" />
+    <!--    loadingView:microphoneBitmap="@mipmap/ic_launcher"-->
+</LinearLayout>

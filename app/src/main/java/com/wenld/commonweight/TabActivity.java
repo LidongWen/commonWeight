@@ -24,7 +24,7 @@ public class TabActivity extends Activity {
     RecyclerView rlvAty;
     MyAdapter adapter;
 
-    private List<String> mList = Arrays.asList(new String[]{"水波纹百分比加载效果"});
+    private List<String> mList = Arrays.asList(new String[]{"水波纹百分比加载效果", "录音效果"});
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,18 +45,22 @@ public class TabActivity extends Activity {
                     case 0:
                         intent = new Intent(TabActivity.this, WaveActivity.class);
                         break;
+                    case 1:
+                        intent = new Intent(TabActivity.this, RecordActivity.class);
+                        break;
                 }
                 startActivity(intent);
             }
         });
+
+
+        adapter.addHeaderView(LayoutInflater.from(this).inflate(R.layout.layout_header, null));
+        adapter.addFooterView(LayoutInflater.from(this).inflate(R.layout.layout_bottom, null));
+
     }
 
     public class MyAdapter extends AdvancedAdapter<MyAdapter.Holder, String> {
 
-        @Override
-        public int getAdvanceViewType(int position) {
-            return 0;
-        }
 
         @Override
         public void onBindAdvanceViewHolder(Holder holder, int i) {
@@ -82,9 +86,7 @@ public class TabActivity extends Activity {
                     }
                 });
                 tv = (TextView) itemView.findViewById(R.id.tv_listitem);
-
             }
         }
-
     }
 }

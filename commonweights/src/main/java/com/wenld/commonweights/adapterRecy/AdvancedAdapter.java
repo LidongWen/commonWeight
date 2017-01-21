@@ -209,6 +209,10 @@ public abstract class AdvancedAdapter<VH extends AdvancedAdapter.ViewHolder, M>
         this.listener = listener;
     }
 
+    public int getAdvanceViewType(int postion){
+        return 0;
+    }
+
     private static final int DELAY = 138;
     private int mLastPosition = -1;
 
