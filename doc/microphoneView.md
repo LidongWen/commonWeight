@@ -2,21 +2,6 @@
 
 <img width="320" height="548" src="https://github.com/LidongWen/commonWeight/blob/master/img/microphoneView.gif"></img>
 
-#### 使用
-
-        <attr name="ringWidth" format="reference|dimension" />
-        <attr name="voiceWidth" format="dimension|reference" />
-        <attr name="microphoneBitmap" format="reference" />
-        <attr name="model">
-            <enum name="record_model" value="1" />
-            <enum name="play_model" value="2" />
-            <enum name="loading_model" value="3" />
-        </attr>
-
-        <attr name="ringColor" format="reference|color" />
-        <attr name="loadingColor" format="reference|color" />
-        <attr name="voiceRingColor" format="reference|color" />
-        <attr name="voiceColor" format="reference|color" />
 ## xml
 | name        | type           | direction  |
 | ------------- |:-------------:| :-----:|

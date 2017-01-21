@@ -1,35 +1,8 @@
 # 加头加尾RecyclerView 适配器
 
-#### 使用
-
-
-
-| name        | type           | direction  |
-| ------------- |:-------------:| :-----:|
-| circle_Color      | color|reference | 圆颜色 |
-| wave_Color      | color|reference      |  水波纹颜色 |
-| text_Color | color|reference      |    文字颜色 |
-| text_Size | dimension      |    文字大小 |
-| unitText | dimension      |    单位（默认 “%”） |
-| unitText_Color | color|reference      |    单位文字颜色 |
-| unitText_Size | dimension      |     单位文字大小 |
-
-
-## void
-| name        | void name           | direction  |
-| ------------- | ------------- | :-----:|
-| 设置百分比      | setPercent(int percent) | |
-| 设置文字颜色      | setTextColor(int textColor)      |  |
-| text size | setTextSize(float textSize)      |    换算成 px |
-| 设置符号颜色 | setUnitTextColor(int unitTextColor)      |     |
-| 设置符号大小 | setUnitTextSize(float unitTextSize)      |   换算成 px  |
-| 设置符号文字 | setUnitText(String unitText)      |   默认“%” |
-| 设置圆圈颜色 | setCircleColor(int circleColor)     |      |
-| 设置水波颜色 | setWaveColor(int waveColor)     |      |
-
-## 引用
+## 使用
 ```java
-// 项目引用
+
 public class MyAdapter extends AdvancedAdapter<MyAdapter.Holder, String> {
 
         @Override
