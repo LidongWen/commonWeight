@@ -118,14 +118,10 @@ public abstract class AdvancedAdapter<VH extends AdvancedAdapter.ViewHolder, M>
         }
     }
 
-    public abstract class ViewHolder extends RecyclerView.ViewHolder implements IViewHolder {
+    public static abstract class ViewHolder extends RecyclerView.ViewHolder implements IViewHolder {
 
         public ViewHolder(View itemView) {
             super(itemView);
-        }
-
-        public int getAdpPosition() {
-            return Selected(getAdapterPosition());
         }
     }
 
@@ -209,7 +205,7 @@ public abstract class AdvancedAdapter<VH extends AdvancedAdapter.ViewHolder, M>
         this.listener = listener;
     }
 
-    public int getAdvanceViewType(int postion){
+    public int getAdvanceViewType(int postion) {
         return 0;
     }
 
@@ -248,5 +244,19 @@ public abstract class AdvancedAdapter<VH extends AdvancedAdapter.ViewHolder, M>
 //        } else {
 //            view.setAlpha(1);
 //        }
+    }
+
+    public int getmFooterViews() {
+        if (mFooterViews != null) {
+            return mFooterViews.size();
+        } else
+            return 0;
+    }
+
+    public int getmHeaderViews() {
+        if (mHeaderViews != null) {
+            return mHeaderViews.size();
+        } else
+            return 0;
     }
 }
