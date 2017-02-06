@@ -13,7 +13,7 @@
 ```groovy
 // 项目引用
 dependencies {
-    compile 'com.github.LidongWen:commonWeight:1.0.2'
+    compile 'com.github.LidongWen:commonWeight:1.0.3'
 }
 
 // 根目录下引用
