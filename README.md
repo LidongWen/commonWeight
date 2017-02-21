@@ -7,6 +7,7 @@
 - [RecycylerView 加头加尾 适配器](https://github.com/LidongWen/commonWeight/blob/master/doc/adapterRecy.md)
     -  相关博客：[RecyclerView封装——添加Header、Footer（在网格瀑布流布局中独占一行）](http://blog.csdn.net/sinat_15877283/article/details/50913998)
 - [录音麦克风 View](https://github.com/LidongWen/commonWeight/blob/master/doc/microphoneView.md)
+- [腾讯QQ_红点取消控件](https://github.com/LidongWen/StickyDot)
 
 
 ## 引用
