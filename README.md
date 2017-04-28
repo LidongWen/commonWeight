@@ -17,7 +17,7 @@
 
 - [rippleLayout MaterialDesign触控效果_ 兼容API-12](https://github.com/LidongWen/RippleLayouts) 
 
-![two.gif](http://upload-images.jianshu.io/upload_images/1599843-0498c31dc10b0250.gif?imageMogr2/auto-orient/strip)
+<img width="320" height="500" src="http://upload-images.jianshu.io/upload_images/1599843-0498c31dc10b0250.gif?imageMogr2/auto-orient/strip"></img>
 
 
 ## 引用
