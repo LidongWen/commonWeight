@@ -15,6 +15,9 @@
 
 ![](img/checkBox.gif)
 
+- [rippleLayout MaterialDesign触控效果_ 兼容API-12](https://github.com/LidongWen/RippleLayouts)
+![](http://upload-images.jianshu.io/upload_images/1599843-98223a576a2aa0c9.gif?imageMogr2/auto-orient/strip)
+
 ## 引用
 ```groovy
 // 项目引用
